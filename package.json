@@ -1,0 +1,22 @@
+{
+  "name": "fastfeet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ianAraujj/FastFeet-BackEnd.git",
+  "author": "Ian Luccas <ianlucas2503@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^5.5.1",
+    "sucrase": "^3.14.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.2.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.9"
+  }
+}
