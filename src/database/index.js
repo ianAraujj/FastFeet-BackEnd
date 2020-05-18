@@ -3,7 +3,8 @@ import databaseConfig from '../config/database';
 
 // Criando um array com todos os Models da minha Aplicação
 import User from '../app/models/User';
-const models = [User];
+import Recipients from '../app/models/Recipients';
+const models = [User, Recipients];
 
 class DataBase {
   constructor() {
